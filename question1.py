@@ -17,6 +17,4 @@ try:
         print(f"Load per support point: {load_per_support:.2f} N")
 
 except (ValueError, IndexError):
-    # ValueError: si no es número
-    # IndexError: si faltan argumentos
     print("Error: Invalid input! Enter numeric values only.")
